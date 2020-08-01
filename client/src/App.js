@@ -1,25 +1,14 @@
-import React, { Component } from "react";
-//import logo from './img/logo.svg';
-//import './App.css';
-//import Card from "./components/Card";
-import projects from "./projects.json";
-//import Nav from "./components/Nav";
-//import Footer from "./components/Footer";
-//import Header from "./components/Header";
-//import {Col, Row, Container, Wrapper } from "./components/Grid";
+import React from "react";
+import ProjectCard from "./components/Card";
+import { Container } from 'react-bootstrap';
 
-class App extends Component {
-  state = {
-    projects
-  };
+function App () {
 
-  render() {
+
     return (
-      <div>
-"hello"
-</div>
-    );
-  }
-}
+      <Container>
+<ProjectCard></ProjectCard>          
+    </Container>
+    )}
 
 export default App;
